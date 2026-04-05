@@ -2,7 +2,7 @@
 description: How to quickly upload an image to the Discord repository
 ---
 
-This workflow ensures images are uploaded to the `discord10xc/Discord` repository efficiently.
+This workflow ensures images are uploaded to the `discord10ds/Discord` repository efficiently.
 
 1.  **Preparation**:
     - Identify the source image path provided by the user.
@@ -12,7 +12,7 @@ This workflow ensures images are uploaded to the `discord10xc/Discord` repositor
 2.  **Environment Check**:
     - Ensure the working directory is `c:\AIDev\画像アップロード`.
     - // turbo
-    - Run `gh auth switch --hostname github.com --user discord10xc` to ensure correct permissions.
+    - Run `gh auth switch --hostname github.com --user discord10ds` to ensure correct permissions.
     - // turbo
     - Run `gh auth setup-git` if needed.
 
